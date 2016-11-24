@@ -28,7 +28,6 @@ public class playerMove : MonoBehaviour
 	private void Update() {
 		ObjectScan ();
 		ItemGrab ();
-		Debug.Log (grabbed_Item);
 	}
 
     private void FixedUpdate()

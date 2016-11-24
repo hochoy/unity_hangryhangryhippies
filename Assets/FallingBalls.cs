@@ -16,6 +16,12 @@ public class FallingBalls : MonoBehaviour {
 	private RigidbodyConstraints originalConstraints;
 	private RigidbodyConstraints grabbedConstraints;
 
+	// explosion
+	public GameObject explosionPrefab;
+	public AudioClip explosionSound;
+	private bool soundPlayed = false;
+	public float volume = 1.0f;
+
 
 	// Use this for initialization
 	void Start () {
@@ -41,8 +47,9 @@ public class FallingBalls : MonoBehaviour {
 		}
 	}
 		
+		
 	private void ExplodeBall(){
-		// AnimateExplosion () ;
+		AnimateExplosion () ;
 		// NullReferencesToThisObject ();
 		Destroy (this.gameObject);
 		Destroy (this);
@@ -88,4 +95,11 @@ public class FallingBalls : MonoBehaviour {
 			this.gameObject.GetComponent<Rigidbody> ().useGravity = true;
 		}
 	}
+
+	private void AnimateExplosion(){
+		Vector3 explosionPos = this.gameObject.transform.position;
+		Instantiate (explosionPrefab, explosionPos, Quaternion.identity);
+		AudioSource.PlayClipAtPoint (explosionSound, Camera.main.transform.position,volume);
+	}
+
 }
