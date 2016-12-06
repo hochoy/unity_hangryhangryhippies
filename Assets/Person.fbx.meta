@@ -1,0 +1,509 @@
+fileFormatVersion: 2
+guid: 7eaf2280b959d473badb2b89709a47e9
+timeCreated: 1480471933
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: Bone
+    100004: Bone.001
+    100006: Bone.001_end
+    100008: Bone.002
+    100010: Bone.002_end
+    100012: Bone.003
+    100014: Bone.003_end
+    100016: Bone.004
+    100018: Bone.004_end
+    100020: Bone.005
+    100022: Bone.005_end
+    100024: Bone.006
+    100026: Bone.006_end
+    100028: Circle.001
+    100030: Cube.002
+    100032: Cube.003
+    100034: Cube.006
+    100036: Icosphere
+    100038: Icosphere.001
+    100040: //RootNode
+    100042: Sphere.010
+    100044: Sphere.011
+    400000: Armature
+    400002: Bone
+    400004: Bone.001
+    400006: Bone.001_end
+    400008: Bone.002
+    400010: Bone.002_end
+    400012: Bone.003
+    400014: Bone.003_end
+    400016: Bone.004
+    400018: Bone.004_end
+    400020: Bone.005
+    400022: Bone.005_end
+    400024: Bone.006
+    400026: Bone.006_end
+    400028: Circle.001
+    400030: Cube.002
+    400032: Cube.003
+    400034: Cube.006
+    400036: Icosphere
+    400038: Icosphere.001
+    400040: //RootNode
+    400042: Sphere.010
+    400044: Sphere.011
+    4300000: Icosphere.001
+    4300002: Sphere.011
+    4300004: Sphere.010
+    4300006: Icosphere
+    4300008: Cube.006
+    4300010: Cube.002
+    4300012: Circle.001
+    4300014: Cube.003
+    7400000: Armature|Blinking
+    7400002: Armature|IdleAnim
+    7400004: Armature|Walk
+    7400006: Armature|WalkWindDown
+    7400008: Armature|WalkWindUp
+    9500000: //RootNode
+    13700000: Circle.001
+    13700002: Cube.002
+    13700004: Cube.003
+    13700006: Cube.006
+    13700008: Icosphere
+    13700010: Icosphere.001
+    13700012: Sphere.010
+    13700014: Sphere.011
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Armature|Blinking
+      takeName: Armature|Blinking
+      firstFrame: 0
+      lastFrame: 144
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.006/Bone.006_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.002/Circle.001
+        weight: 1
+      - path: Cube.002/Cube.003
+        weight: 1
+      - path: Cube.006
+        weight: 1
+      - path: Icosphere
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Sphere.010
+        weight: 1
+      - path: Sphere.011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|IdleAnim
+      takeName: Armature|IdleAnim
+      firstFrame: 0
+      lastFrame: 200
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.006/Bone.006_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.002/Circle.001
+        weight: 1
+      - path: Cube.002/Cube.003
+        weight: 1
+      - path: Cube.006
+        weight: 1
+      - path: Icosphere
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Sphere.010
+        weight: 1
+      - path: Sphere.011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|Walk
+      takeName: Armature|Walk
+      firstFrame: 0
+      lastFrame: 20
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.006/Bone.006_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.002/Circle.001
+        weight: 1
+      - path: Cube.002/Cube.003
+        weight: 1
+      - path: Cube.006
+        weight: 1
+      - path: Icosphere
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Sphere.010
+        weight: 1
+      - path: Sphere.011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|WalkWindDown
+      takeName: Armature|WalkWindDown
+      firstFrame: 0
+      lastFrame: 10
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.006/Bone.006_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.002/Circle.001
+        weight: 1
+      - path: Cube.002/Cube.003
+        weight: 1
+      - path: Cube.006
+        weight: 1
+      - path: Icosphere
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Sphere.010
+        weight: 1
+      - path: Sphere.011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Armature|WalkWindUp
+      takeName: Armature|WalkWindUp
+      firstFrame: 0
+      lastFrame: 5
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Armature
+        weight: 1
+      - path: Armature/Bone
+        weight: 1
+      - path: Armature/Bone/Bone.001
+        weight: 1
+      - path: Armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Armature/Bone/Bone.002
+        weight: 1
+      - path: Armature/Bone/Bone.002/Bone.002_end
+        weight: 1
+      - path: Armature/Bone/Bone.003
+        weight: 1
+      - path: Armature/Bone/Bone.003/Bone.003_end
+        weight: 1
+      - path: Armature/Bone/Bone.004
+        weight: 1
+      - path: Armature/Bone/Bone.004/Bone.004_end
+        weight: 1
+      - path: Armature/Bone/Bone.005
+        weight: 1
+      - path: Armature/Bone/Bone.005/Bone.005_end
+        weight: 1
+      - path: Armature/Bone/Bone.006
+        weight: 1
+      - path: Armature/Bone/Bone.006/Bone.006_end
+        weight: 1
+      - path: Cube.002
+        weight: 1
+      - path: Cube.002/Circle.001
+        weight: 1
+      - path: Cube.002/Cube.003
+        weight: 1
+      - path: Cube.006
+        weight: 1
+      - path: Icosphere
+        weight: 1
+      - path: Icosphere.001
+        weight: 1
+      - path: Sphere.010
+        weight: 1
+      - path: Sphere.011
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

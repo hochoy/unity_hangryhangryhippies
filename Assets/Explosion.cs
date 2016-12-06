@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Explosion : MonoBehaviour {
 
-	public float delay = 2.0f;
+	public float destroyDelay = 2.0f;
 
 	// Use this for initialization
 	void Start () {
@@ -16,7 +16,7 @@ public class Explosion : MonoBehaviour {
 	}
 
 	private void WaitAndDestroy() {
-		Destroy (this.gameObject, delay);
-		Destroy (this, delay);
+		Destroy (this.gameObject, destroyDelay);
+		Destroy (this, destroyDelay);
 	}
 }
