@@ -4,7 +4,7 @@ using System.Collections;
 public class FallingBalls : MonoBehaviour {
 
 	// Destroy ball after 6 seconds
-	public float delay = 6.0f; //This implies a delay of 2 seconds.
+	//public float delay = 6.0f; //This implies a delay of 2 seconds.
 	public float timeToExplode = 8.0f;
 	private float timeElapsed;
 

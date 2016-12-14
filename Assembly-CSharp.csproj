@@ -47,6 +47,7 @@
   <ItemGroup>
      <Compile Include="Assets\Explosion.cs" />
      <Compile Include="Assets\FallingBalls.cs" />
+     <Compile Include="Assets\PlayerAnimate.cs" />
      <Compile Include="Assets\Spawner.cs" />
      <Compile Include="Assets\david_itemgrab\scripts\Item.cs" />
      <Compile Include="Assets\david_itemgrab\scripts\Part.cs" />
