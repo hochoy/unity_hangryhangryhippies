@@ -4,7 +4,7 @@ using System.Collections;
 public class hippoAttack : MonoBehaviour {
 
     // Applies an upwards force to all rigidbodies that enter the trigger.
-    void OnTriggerEnter(Collider other)
+    void OnTriggerEnxster(Collider other)
     {
         //Debug.Log("name " + other.name);
         GameObject obj = other.gameObject;

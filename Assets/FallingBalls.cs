@@ -45,6 +45,7 @@ public class FallingBalls : MonoBehaviour {
 		if (timeElapsed > timeToExplode) {
 			ExplodeBall ();
 		}
+
 	}
 		
 		
