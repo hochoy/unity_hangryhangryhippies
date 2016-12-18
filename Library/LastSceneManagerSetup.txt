@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/oct.25.unity
+- path: Assets/david_assets/scenes/main_scene.unity
   isLoaded: 1
   isActive: 1

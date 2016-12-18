@@ -45,17 +45,23 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Explosion.cs" />
-     <Compile Include="Assets\FallingBalls.cs" />
-     <Compile Include="Assets\PlayerAnimate.cs" />
-     <Compile Include="Assets\Spawner.cs" />
+     <Compile Include="Assets\david_assets\scripts\Explosion.cs" />
+     <Compile Include="Assets\david_assets\scripts\FallingBalls.cs" />
+     <Compile Include="Assets\david_assets\scripts\LoadOnClick.cs" />
+     <Compile Include="Assets\david_assets\scripts\PlayerAnimate.cs" />
+     <Compile Include="Assets\david_assets\scripts\ScoreFloat.cs" />
+     <Compile Include="Assets\david_assets\scripts\Spawner.cs" />
+     <Compile Include="Assets\david_assets\scripts\gameManager.cs" />
+     <Compile Include="Assets\david_assets\scripts\hippoAttack.cs" />
+     <Compile Include="Assets\david_assets\scripts\playerMove.cs" />
      <Compile Include="Assets\david_itemgrab\scripts\Item.cs" />
      <Compile Include="Assets\david_itemgrab\scripts\Part.cs" />
      <Compile Include="Assets\david_itemgrab\scripts\Roboframe.cs" />
      <Compile Include="Assets\david_itemgrab\scripts\ThirdPersonUserControl.cs" />
-     <Compile Include="Assets\hippoAttack.cs" />
-     <Compile Include="Assets\playerMove.cs" />
-     <Compile Include="Assets\sc.cs" />
+     <None Include="Assets\david_assets\font\roboto\Apache License.txt" />
+     <None Include="Assets\david_assets\font\Luckiest-Guy\ffonts.net.txt" />
+     <None Include="Assets\david_assets\font\Luckiest-Guy\install-a-new-font.txt" />
+     <None Include="Assets\david_assets\font\Luckiest-Guy\LICENSE.txt" />
      <None Include="Assets\Standard Assets\ParticleSystems\Shaders\PriorityParticleAlpha.shader" />
      <None Include="Assets\Standard Assets\ParticleSystems\ParticleSystemsGuidelines.txt" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
