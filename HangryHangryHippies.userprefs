@@ -1,13 +1,16 @@
 ﻿<Properties StartupItem="Assembly-CSharp.csproj">
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/david_assets/scripts/ScoreFloat.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/david_assets/scripts/playerMove.cs">
     <Files>
+      <File FileName="Assets/david_assets/scripts/playerMove.cs" Line="35" Column="33" />
       <File FileName="Assets/david_assets/scripts/hippoAttack.cs" Line="1" Column="1" />
       <File FileName="Assets/david_itemgrab/scripts/Item.cs" Line="1" Column="1" />
       <File FileName="Assets/david_assets/scripts/Spawner.cs" Line="1" Column="1" />
       <File FileName="Assets/david_assets/scripts/FallingBalls.cs" Line="1" Column="1" />
-      <File FileName="Assets/david_assets/scripts/LoadOnClick.cs" Line="6" Column="4" />
-      <File FileName="Assets/david_assets/scripts/ScoreFloat.cs" Line="20" Column="30" />
+      <File FileName="Assets/david_assets/scripts/LoadOnClick.cs" Line="1" Column="1" />
+      <File FileName="Assets/david_assets/scripts/ScoreFloat.cs" Line="1" Column="1" />
+      <File FileName="Assets/Standard Assets/Characters/ThirdPersonCharacter/Scripts/ThirdPersonCharacter.cs" Line="1" Column="1" />
+      <File FileName="Assets/david_itemgrab/scripts/ThirdPersonUserControl.cs" Line="148" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
