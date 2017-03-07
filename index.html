@@ -8,42 +8,89 @@
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <script src="TemplateData/UnityProgress.js"></script>
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/portfolio-item.css" rel="stylesheet">
 </head>
 
-<body class="template">
 
-    <p class="header"><span>Unity WebGL Player | </span>HangryHangryHippies</p>
-    <div class="template-wrap clear">
-        <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
-        <br>
-        <h3>HangryHangryHippies</h3> <small>edited March 6th 2017</small>
-        <p> The Unity Webplayer takes 5 secs to load and the game another 5 seconds. :) </p>
-        <p> Click the blue diagonal arrows at the bottom right corner of this screen to get full view mode :) </p>
-        <p>Use A,W,S,D for movement and press E when facing a ball to pick it up and drop it near a Hippo. :O</p>
-        <p>Hippoes die after 10 explosions. You are immortal at the moment. =P</p>
-        <p>
-            <a href="https://github.com/hochoy/unity_hangryhangryhippies">Back to Github Repo</a>
-        </p>
+    <body>
+        <!-- Navigation -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                  <span class="sr-only">Toggle navigation</span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+                  <span class="icon-bar"></span>
+              </button>
+                    <a class="navbar-brand" href="https://hochoy.github.io/project_portfolio/">David's Portfolio</a>
+                </div>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="https://hochoy.github.io/project_portfolio/">About</a>
+                        </li>
+                        <li>
+                            <a href="https://hochoy.github.io/project_portfolio/">Projects</a>
+                        </li>
+                        <li>
+                            <a href="https://hochoy.github.io/project_portfolio/">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </div>
+            <!-- /.container -->
+        </nav>
 
-        <div class="logo"></div>
-        <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
-        <div class="title">HangryHangryHippies</div>
-    </div>
+        <p class="header"><span>Unity WebGL Player | </span>HangryHangryHippies</p>
+        <div class="template-wrap clear">
+            <br />
+            <br />
+            <br />
+            <br />
+            <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="700px" width="960px"></canvas>
+            <br>
+            <h3>HangryHangryHippies</h3> <small>edited March 6th 2017</small>
+            <p> The Unity Webplayer takes 5 secs to load and the game another 5 seconds. :) </p>
+            <p> Click the blue diagonal arrows at the bottom right corner of this screen to get full view mode :) </p>
+            <p>Use A,W,S,D for movement and press E when facing a ball to pick it up and drop it near a Hippo. :O</p>
+            <p>Hippoes die after 10 explosions. You are immortal at the moment. =P</p>
+            <p>
+                <a href="https://github.com/hochoy/unity_hangryhangryhippies">Back to Github Repo</a>
+            </p>
 
-    <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
-    <script type="text/javascript">
-        var Module = {
-            TOTAL_MEMORY: 268435456,
-            errorhandler: null, // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
-            compatibilitycheck: null,
-            dataUrl: "Release/HangryHangryHippies.data",
-            codeUrl: "Release/HangryHangryHippies.js",
-            memUrl: "Release/HangryHangryHippies.mem",
+            <div class="logo"></div>
+            <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
+            <div class="title">HangryHangryHippies</div>
+        </div>
 
-        };
-    </script>
-    <script src="Release/UnityLoader.js"></script>
+        <p class="footer">&laquo; created with <a href="http://unity3d.com/" title="Go to unity3d.com">Unity</a> &raquo;</p>
+        <script type="text/javascript">
+            var Module = {
+                TOTAL_MEMORY: 268435456,
+                errorhandler: null, // arguments: err, url, line. This function must return 'true' if the error is handled, otherwise 'false'
+                compatibilitycheck: null,
+                dataUrl: "Release/HangryHangryHippies.data",
+                codeUrl: "Release/HangryHangryHippies.js",
+                memUrl: "Release/HangryHangryHippies.mem",
 
-</body>
+            };
+        </script>
+        <script src="Release/UnityLoader.js"></script>
+
+        <!-- jQuery -->
+      <script src="js/jquery.js"></script>
+
+      <!-- Bootstrap Core JavaScript -->
+      <script src="js/bootstrap.min.js"></script>
+
+    </body>
 
 </html>
